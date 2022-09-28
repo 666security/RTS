@@ -4,5 +4,7 @@ insert into players (name,email,password) values ("kamil","kamil@gmail.com","kam
 insert into resources (name) values ("drewno","glina","zelazo");
 insert into buildings (name) values ("dol z gliny","huta zelaza","huta drwala");
 insert into troops (name) values ("lucznik","rycerz","miecznik");
-
+insert into villages (name) values("wioska oskar");
+insert into villages (name) values("wioska pawel");
+insert into villages (name) values("wioska kacper");
 SELECT * FROM players WHERE username="pawel" AND password="123";
